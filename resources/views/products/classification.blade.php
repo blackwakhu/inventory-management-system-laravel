@@ -32,7 +32,7 @@
       </table>
     </div>
     <div>
-      <h1>Products page</h1>
+      <h1>Products Classifications</h1>
     </div>
   </body>
 </html>

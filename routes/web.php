@@ -28,3 +28,11 @@ Route::get('/products', function(){
 Route::get('/customers', function(){
     return view('customers');
 });
+
+Route::get('/products/classification', function(){
+    return view('products.classification');
+});
+
+Route::get('/products/new', function(){
+    return view('products.new');
+});
