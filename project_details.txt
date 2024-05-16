@@ -1,0 +1,1 @@
+the project details =>  https://laravelproject.com/inventory-management-system-laravel-7/
