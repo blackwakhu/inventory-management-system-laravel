@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ClassificationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +33,8 @@ Route::get('/customers', function(){
 Route::get('/products/classification', function(){
     return view('products.classification');
 });
+
+Route::post('/products/classification/new', "ClassificationController@insert");
 
 Route::get('/products/new', function(){
     return view('products.new');
